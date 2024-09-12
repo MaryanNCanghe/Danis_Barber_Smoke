@@ -482,6 +482,7 @@ span{
         background-image: url(img_/header_img/contact_img.jpg);
         align-items: center;
         background-size: cover;
+        
     }
 
     /*----Marcação-------------------------------------------*/
@@ -901,6 +902,21 @@ opacity: 0.5;
 .des{
 color: var(--secon-bg-color-bg-color);
 line-height: 20px;
+}
+
+
+
+/*cart*/
+#cart-count {
+    position: absolute;
+    top: -10px; /* Adjust position */
+    right: -10px; /* Adjust position */
+    background-color: red; /* Change this as needed */
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 
